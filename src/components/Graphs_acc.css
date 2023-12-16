@@ -1,0 +1,43 @@
+body{
+    background-image: url("../images/moon-image.webp");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: 0.5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0); 
+    padding: 20px; /* Add padding for space around the container */
+    border-radius: 8px;
+}
+
+/* Styling for Accordion components */
+.MuiAccordion-root {
+    background-color: rgb(13, 22, 47); /* Darker blue background color for accordion */
+    margin-bottom: 16px; /* Add space between accordion items */
+    border-radius: 8px; /* Optional: Add a border radius for a rounded look */
+  }
+  
+  .MuiAccordionSummary-root {
+    background-color: rgb(13, 22, 47); /* Darker blue background color for accordion summary */
+    color: #4a4848; /* White text color */
+  }
+  
+  .MuiAccordionDetails-root {
+    background-color: rgb(21, 39, 73); /* Darker blue background color for accordion details */
+    color: #ffffff; /* White text color */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* White border on top for details */
+  }
+  
+  /* Styling for the expand icon */
+  .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+    color: #686868; /* White color for the expanded icon */
+  }
+
+
+  
+  /* Additional styles as needed */
